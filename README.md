@@ -14,3 +14,9 @@ run the server with `npm start` and navigate to the `index.html` from your files
 
 
 ![](assets/gameplay.gif)
+
+## fixes
+Tutorial code counts down the number of stars to 0, but I found this does not update synchornously, so the lowest number is actually 1.
+```
+if (stars.countActive(true) === 1) 
+```
