@@ -13,7 +13,7 @@ The browser will block access to static assets. To get around this, one option i
 run the server with `npm start` and navigate to [localhost:8081](https://localhost:8081)
 
 View the game on [phaser3-tutorial.herokuapp.com](https://phaser3-tutorial.herokuapp.com/)
-![](assets/gameplay.gif)
+![](public/assets/gameplay.gif)
 
 ## fixes
 Tutorial code counts down the number of stars to 0, but I found this does not update synchornously, so the lowest number is actually 1.
