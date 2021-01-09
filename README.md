@@ -12,7 +12,7 @@ The browser will block access to static assets. To get around this, one option i
 ## Start game
 run the server with `npm start` and navigate to [localhost:8081](https://localhost:8081)
 
-
+View the game on [phaser3-tutorial.herokuapp.com](https://phaser3-tutorial.herokuapp.com/)
 ![](assets/gameplay.gif)
 
 ## fixes
